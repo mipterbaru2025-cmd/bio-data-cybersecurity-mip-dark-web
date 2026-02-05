@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Mip Tahyudin</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#skills">Skills</a>
+  <a href="#program">Program</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <img src="mip.jpeg" class="foto glow rotate">
+  <h1>Mip Tahyudin</h1>
+  <p>Web Developer • Programming • Cyber Security</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-box">
+    <img src="mp.jpeg" class="foto glow">
+    <div class="text">
+      <h2>Hi 👋</h2>
+      <p>
+Saya adalah siswa <b>SMK Samudra</b><br>
+Jurusan <b>Teknik Komputer dan Jaringan (TKJ)</b><br><br>
+
+Usia <b>17 tahun</b>.<br><br>
+
+Saya memiliki cita-cita menjadi seorang programmer dan
+meraih kesuksesan di usia muda.<br><br>
+
+Hobi saya adalah ngoding dan mekanik.<br><br>
+
+Saya bertekad membanggakan kedua orang tua dan terus
+memperbaiki diri dari masa lalu.<br><br>
+
+Perjuangan ini saya berterimakasih kepada wanita yang aku sayangi berinisial
+<b>“🤍G🤍”</b> yang selalu memberi semangat dan mencerahkan hariku disaat sedang kacau.
+Terima kasih 🙏
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2>My Services</h2>
+  <div class="card-box">
+    <div class="card" onclick="openDetail('srv1')">
+      &lt;/&gt;<p>Web Coding</p>
+    </div>
+    <div class="card" onclick="openDetail('srv2')">
+      <i class="fa-solid fa-code"></i><p>VS Code</p>
+    </div>
+    <div class="card" onclick="openDetail('srv3')">
+      <i class="fa-solid fa-terminal"></i><p>Programming</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE DETAIL -->
+<section id="srv1" class="detail">
+  <img src="web.jpeg">
+  <p>Pembuatan website menggunakan HTML, CSS, JavaScript, dan PHP.</p>
+  <p>1. HTML (HyperText Markup Language)
+Ini struktur atau kerangka website.
+Bayangkan HTML itu seperti tulang bangunan: menentukan apa yang ada di halaman. Misal:
+Judul
+Paragraf
+Gambar
+Tombol
+Formulir
+</p>
+<p>2. CSS (Cascading Style Sheets)
+CSS itu untuk mengatur tampilan / desain dari HTML.
+Bisa diibaratkan cat, warna, dan dekorasi rumah.</p>
+<p>3. JavaScript (JS)
+JS itu untuk interaksi dan dinamika website.
+Bisa diibaratkan alat listrik dan tombol otomatis: tombol bisa diklik, animasi bergerak, form dicek sebelum dikirim.
+</p>
+<p>4. PHP (Hypertext Preprocessor)
+PHP itu bahasa server-side: diproses di server sebelum muncul di browser.
+Fungsinya untuk mengelola data: misal login, database, kirim form, atau menampilkan konten dinamis.
+Bisa diibaratkan dapur di belakang rumah: kita kirim bahan, diolah, baru keluar jadi makanan.</p>
+<p>🔗 Hubungan HTML, CSS, JS, dan PHP
+HTML → struktur konten halaman
+CSS → mempercantik HTML
+JS → bikin website interaktif
+PHP → mengelola data dan proses di server
+Jadi, kalau digabung: website bisa tampil bagus, interaktif, dan dinamis, misal:
+Form login bisa diklik (JS), tampilannya rapi (CSS), strukturnya ada (HTML), datanya dicek di server (PHP).</p>
+</section>
+
+<section id="srv2" class="detail">
+  <img src="vs.jpeg">
+  <p>Pengembangan project menggunakan Visual Studio Code.</p>
+  <p>1. Apa itu VS Code?
+VS Code adalah singkatan dari Visual Studio Code.
+Ini adalah editor kode (code editor) yang dibuat oleh Microsoft.
+Fungsinya untuk menulis, mengedit, dan menjalankan kode berbagai bahasa pemrograman seperti:
+HTML, CSS, JavaScript
+Python, PHP, C++, Java
+Bahkan bisa untuk database dan web server
+Bisa dibilang VS Code itu seperti “notepad super canggih untuk programmer”.</p>
+<p>2. Fitur Utama VS Code
+Syntax Highlighting
+Membuat kode lebih mudah dibaca karena tiap jenis kode (misal tag HTML, variabel JS, string PHP) punya warna berbeda.
+Auto-complete / IntelliSense
+VS Code memberi saran otomatis saat mengetik kode, jadi lebih cepat dan mengurangi salah ketik.
+Extensions (Ekstensi)
+Bisa pasang tambahan untuk bahasa atau fitur lain, misal:
+Live Server → untuk langsung melihat hasil HTML di browser
+Prettier → untuk format kode otomatis rapi
+PHP Intelephense → untuk PHP
+Debugging
+Bisa menemukan error atau bug di kode langsung di editor.
+Terminal Bawaan
+Ada terminal di dalam VS Code, jadi bisa langsung jalankan perintah git, npm, atau php tanpa pindah aplikasi.
+Multi-language
+Bisa digunakan untuk banyak bahasa pemrograman sekaligus.</p>
+<p>3. Kelebihan VS Code
+Ringan dan cepat dibanding editor berat lain.
+Gratis dan open-source.
+Banyak tema dan kustomisasi, bisa diubah tampilannya sesuai selera.
+Komunitas besar → banyak tutorial, ekstensi, dan bantuan online.</p>
+<p>4. Cara Kerja VS Code
+Kita tulis kode di VS Code.
+Jika kode HTML, CSS, JS, bisa langsung dilihat di browser dengan Live Server.
+Jika kode PHP atau Python, VS Code bisa jalankan lewat terminal atau debugger.
+Bisa juga integrasi Git, jadi bisa simpan proyek langsung ke GitHub.</p>
+<p>5. Contoh VS Code Digunakan
+Membuat website: HTML + CSS + JS + PHP
+Membuat aplikasi desktop dengan Python atau JavaScript (Electron)
+Membuat aplikasi game ringan dengan JavaScript atau Unity</p>
+</section>
+
+<section id="srv3" class="detail">
+  <img src="programming.jpeg">
+  <p>Programming dan dasar cyber security.</p>
+<p>1. Apa itu Programming?
+Programming (pemrograman) adalah proses memberi instruksi kepada komputer supaya melakukan sesuatu.
+Bisa diibaratkan seperti memberi resep masakan: komputer mengikuti langkah-langkah yang kita tulis, dan menghasilkan “makanan” (program) yang kita inginkan.
+Contoh:
+Membuat website
+Membuat game
+Membuat aplikasi di HP
+Mengatur robot atau perangkat pintar</p>
+<p>2. Bahasa Pemrograman
+Agar komputer mengerti, kita harus menulis dalam bahasa khusus, yaitu bahasa pemrograman.
+Contoh bahasa pemrograman:
+HTML / CSS / JavaScript → website interaktif
+Python → data science, AI, game, aplikasi
+PHP / Java / C++ / C# → web, aplikasi desktop, sistem
+Setiap bahasa punya aturan dan sintaks sendiri, tapi tujuan utamanya sama: memberi instruksi ke komputer.</p>
+<p>3. Bagaimana Programming Bekerja
+Menulis kode (coding)
+Programmer menulis kode di editor seperti VS Code.
+Compile / Run (menjalankan kode)
+Komputer membaca kode dan menjalankannya.
+Output
+Hasilnya bisa berupa:
+Teks atau gambar di layar
+File yang disimpan
+Data yang dikirim ke server
+Interaksi dengan pengguna</p>
+<p>4. Konsep Dasar Programming
+Ada beberapa konsep penting yang harus dipahami:
+Variabel
+Tempat menyimpan data, misal: nama, angka, status.
+Salin kode
+Python
+nama = "Mip Tahyudin"
+umur = 16
+Tipe Data
+Jenis data yang bisa disimpan:
+Angka → 10, 3.14
+Teks → "Halo"
+Boolean → True / False
+Percabangan (Condition / If)
+Agar program bisa memilih jalannya, misal:
+Salin kode
+Python
+if umur >= 17:
+    print("Sudah dewasa")
+else:
+    print("Masih anak-anak")
+Perulangan (Loop)
+Agar program melakukan sesuatu berulang-ulang:
+Salin kode
+Python
+for i in range(5):
+    print("Halo!")
+Fungsi / Function
+Kode yang dibuat sekali, bisa dipakai berkali-kali:
+Salin kode
+Python
+def sapa(nama):
+    print("Halo " + nama)
+
+sapa("Mip")  # Output: Halo Mip
+Array / List
+Tempat menyimpan banyak data sekaligus:
+Salin kode
+Python
+buah = ["apel", "pisang", "mangga"]
+print(buah[1])  # Output: pisang</p>
+<p>5. Tujuan Programming
+Membuat website, aplikasi, atau game
+Mempermudah pekerjaan manusia
+Mengontrol perangkat (robot, HP, komputer)
+Mengolah data dan informasi</p>
+<p>6. Tools yang Dipakai Programmer
+Code editor → VS Code, Sublime Text
+Compiler / Interpreter → untuk menjalankan kode (misal Python, Java)
+Browser → untuk melihat hasil kode web (HTML, CSS, JS)
+Database → menyimpan data (MySQL, SQLite, MongoDB)
+Version Control / Git → mengatur versi kode dan kolaborasi</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>My Skills</h2>
+  <div class="card-box">
+    <div class="card" onclick="openDetail('sk1')">HTML 96%</div>
+    <div class="card" onclick="openDetail('sk2')">CSS 89%</div>
+    <div class="card" onclick="openDetail('sk3')">JS 50%</div>
+    <div class="card" onclick="openDetail('sk4')">PHP 25%</div>
+    <div class="card" onclick="openDetail('sk5')">Python 60%</div>
+  </div>
+</section>
+
+<section id="sk1" class="detail"><img src="html.jpeg"><p>HTML Advanced</p>
+<p>1. Mudah (Pemula)
+Halaman teks sederhana → cuma menampilkan judul, paragraf, dan gambar.
+Daftar / list → menampilkan daftar nama, daftar barang, atau menu.
+Link sederhana → membuat tautan ke halaman lain atau ke website lain.
+Tujuan: belajar tag dasar seperti <>, h1, p, img, a, ul.</p>
+<p>2. Sedang (Menengah)
+Halaman profil / bio → menambahkan gambar, teks, link sosial media, dan daftar hobi.
+Formulir sederhana → input nama, email, pesan. Bisa pakai tombol “Kirim” (tanpa backend).
+Tabel → menampilkan data seperti jadwal, nilai, atau harga produk.
+Tujuan: belajar struktur halaman lebih kompleks dan elemen interaktif dasar.</p>
+<p>3. Sulit (Lanjutan / Kombinasi)
+Website portofolio → gabungan teks, gambar, link, dan beberapa halaman terhubung.
+Landing page → halaman promosi produk dengan struktur rapi, gambar, tombol, dan link ke kontak.
+Website dinamis sederhana → gabungan HTML + CSS + JS, misalnya tombol klik muncul alert, animasi, atau slider gambar.
+Tujuan: belajar HTML terintegrasi dengan CSS dan JS, menyiapkan dasar untuk website profesional.</p>
+</section>
+<section id="sk2" class="detail"><img src="css.jpeg"><p>CSS Animation</p>
+<p>1. Mudah (Pemula)
+Ganti warna dan font teks → bikin teks merah, biru, atau pakai font berbeda.
+Ubah background halaman → bisa warna solid, gradient sederhana.
+Beri padding dan margin → atur jarak antar elemen supaya rapi.
+Buat tombol sederhana → warna, border, dan radius (tepi bulat).
+Tujuan: belajar membuat tampilan dasar lebih menarik daripada HTML polos.</p>
+<p>2. Sedang (Menengah)
+Hover efek → efek berubah warna atau animasi saat mouse diarahkan ke elemen.
+Layout dengan Flexbox atau Grid → mengatur posisi elemen (tengah, kiri-kanan, kolom) dengan rapi.
+Card / kotak informasi → membuat kotak berisi gambar dan teks, seperti profil, produk, atau berita.
+Transisi / animasi sederhana → misal tombol berubah warna halus, gambar fade in/out.
+Tujuan: belajar desain interaktif dan layout modern.</p>
+<p>3. Sulit (Lanjutan / Mahir)
+Animasi kompleks → pergerakan, rotasi, scale, atau efek loading yang rumit.
+Website responsive / mobile-friendly → tampilan menyesuaikan ukuran layar HP, tablet, dan komputer.
+Parallax / scroll efek → konten bergerak berbeda kecepatan saat di-scroll.
+Tema gelap / terang dinamis → halaman bisa ganti tema otomatis atau dengan tombol.
+Tujuan: belajar CSS untuk membuat website profesional dan interaktif.</p>
+</section>
+<section id="sk3" class="detail"><img src="js.jpeg"><p>JavaScript Logic</p>
+<p>1. Mudah (Pemula)
+Popup / Alert → menampilkan pesan saat halaman dibuka atau tombol diklik.
+Console log → menampilkan informasi di console browser untuk latihan coding.
+Tombol interaktif sederhana → klik tombol muncul teks di halaman.
+Ubah teks atau warna halaman → misal klik tombol, teks berubah warna atau konten berubah.
+Tujuan: belajar interaksi dasar antara JS dan HTML.</p>
+<p>2. Sedang (Menengah)
+Form validasi sederhana → cek apakah pengguna sudah mengisi nama, email, atau password dengan benar sebelum submit.
+Slider gambar / gallery → klik tombol, gambar berubah satu per satu.
+Timer / hitung mundur → menampilkan jam, countdown, atau stopwatch di halaman.
+Animasi sederhana → teks atau gambar bergerak, fade in/out, atau muncul perlahan.
+Tujuan: belajar JS untuk interaktivitas dan manipulasi konten.</p>
+<p>3. Sulit (Lanjutan / Mahir)
+Game sederhana di browser → misal teka-teki, game klik, atau game mini seperti snake.
+Website dinamis lengkap → konten bisa berubah otomatis, misal menampilkan artikel dari JSON atau API.
+Drag and drop → elemen bisa dipindahkan dengan mouse.
+Single Page Application (SPA) → halaman web tanpa reload, konten berubah secara dinamis.
+Integrasi API dan database → ambil data dari server atau layanan online, tampilkan secara real-time.
+Tujuan: belajar JS untuk membuat website profesional, interaktif, dan aplikasi web modern.</p>
+</section>
+<section id="sk4" class="detail"><img src="php.jpeg"><p>PHP Backend</p>
+<p>1. Mudah (Pemula)
+Menampilkan teks di halaman web → PHP menulis “Halo Dunia” atau “Selamat Datang” di browser.
+Variabel dan perhitungan sederhana → menyimpan data seperti nama, angka, dan melakukan operasi matematika.
+Form sederhana → form input yang dikirim ke halaman lain dan ditampilkan kembali menggunakan PHP.
+Tanggal dan waktu → menampilkan tanggal atau jam saat ini di halaman web.
+Tujuan: belajar PHP dasar dan bagaimana kode PHP bekerja di server.</p>
+<p>2. Sedang (Menengah)
+Form validasi dan pemrosesan data → cek inputan user, misal email atau password, sebelum disimpan.
+Menyimpan data ke file → simpan input pengguna ke file teks atau CSV.
+Hitung sederhana berbasis form → misal kalkulator online.
+Session dan cookie → menyimpan informasi user sementara, misal login sementara atau tema gelap/terang.
+Tujuan: belajar PHP untuk interaksi dengan pengguna dan manajemen data sederhana.</p>
+<p>3. Sulit (Lanjutan / Mahir)
+Website dinamis dengan database → gabungan PHP + MySQL untuk membuat sistem login, posting artikel, toko online, dll.
+Sistem login lengkap → registrasi, login, logout, hak akses user berbeda.
+CRUD (Create, Read, Update, Delete) → membuat sistem data yang bisa ditambah, dibaca, diubah, dan dihapus.
+Integrasi API / Web service → ambil data dari layanan online dan tampilkan di website.
+CMS sederhana → membuat Content Management System untuk mengatur website tanpa coding.
+Tujuan: belajar PHP untuk membuat website profesional dan aplikasi web yang dinamis.</p>
+</section>
+<section id="sk5" class="detail"><img src="py.jpeg"><p>Python Programming</p>
+<p>1. Mudah (Pemula)
+Menampilkan teks di layar → “Halo Dunia” atau “Selamat Datang”.
+Variabel dan perhitungan sederhana → operasi matematika dasar (penjumlahan, pengurangan, perkalian, pembagian).
+Input pengguna → meminta nama atau angka dan menampilkannya kembali.
+Percabangan sederhana → program memilih jalannya berdasarkan kondisi (if/else).
+Perulangan sederhana → menampilkan sesuatu berulang kali (for / while).
+Tujuan: belajar struktur dasar Python dan logika pemrograman.</p>
+<p>2. Sedang (Menengah)
+List / Array dan manipulasi data → menyimpan banyak data dan mengolahnya.
+Fungsi / Function → membuat kode yang bisa dipakai berulang kali.
+Program kalkulator sederhana → menghitung angka sesuai input pengguna.
+Membaca dan menulis file → simpan data ke file teks atau baca file CSV.
+Game sederhana berbasis teks → misal tebak angka, kuis, atau adventure sederhana.
+Tujuan: belajar struktur data, fungsi, dan logika program lebih kompleks.</p>
+<p>3. Sulit (Lanjutan / Mahir)
+GUI / aplikasi desktop → menggunakan Tkinter, PyQt, atau Kivy untuk membuat aplikasi dengan jendela, tombol, input, dll.
+Website dengan Python → menggunakan framework seperti Flask atau Django untuk membuat website dinamis.
+Game 2D / 3D → misal menggunakan Pygame untuk membuat game interaktif.
+Data Science / AI / Machine Learning → analisis data, prediksi, atau membuat model AI menggunakan library seperti Pandas, NumPy, TensorFlow.
+Otomatisasi / scripting kompleks → misal otomatisasi file, email, atau pekerjaan komputer lain.
+Tujuan: belajar Python untuk aplikasi profesional, website, game, dan data analysis.</p>
+</section>
+
+<!-- PROGRAM -->
+<section id="program">
+  <h2>Latest Program</h2>
+  <p>
+Project terbaru saya meliputi coding HTML, CSS, JavaScript,
+PHP, serta dasar cyber security.<br><br>
+Terima kasih telah bekerja sama dalam bidang cyber security.
+  </p>
+  <p>Latest Program Update – Web & Cyber Tech 2026
+Selamat datang di Latest Program 2026, tempat terkini untuk mengikuti perkembangan teknologi web dan keamanan siber! Berikut ringkasan skill dan teknologi terbaru yang sedang menjadi trend:</p>
+<p>1. HTML – Struktur Modern Web
+HTML tetap menjadi fondasi utama setiap website. Dengan HTML5, pembuatan layout responsif, multimedia interaktif, dan semantik SEO-friendly semakin mudah. Tag baru seperti header, footer, section dan article membuat kode lebih bersih dan efisien.</p>
+    <p>2. CSS – Desain Dinamis dan Animasi
+CSS kini bukan hanya soal warna dan layout. Dengan Flexbox, Grid, dan CSS Variables, tampilan web bisa lebih fleksibel. Ditambah animasi modern seperti transisi halus, hover interaktif, dan efek dark mode membuat pengalaman pengguna lebih menarik.</p>
+<p>3. JavaScript – Interaksi dan Fungsi Canggih
+JavaScript terus menjadi inti interaktivitas web. Dari DOM Manipulation, AJAX, hingga framework populer seperti React dan Vue, JS memungkinkan website untuk menjadi single-page application (SPA) yang cepat dan dinamis. Dengan ES2026, sintaks baru membuat kode lebih bersih dan mudah dibaca.</p>
+<P>4. PHP – Backend Powerhouse
+PHP tetap andalan untuk membangun website dinamis dan database-driven. Framework seperti Laravel dan CodeIgniter mempermudah pengembangan, mendukung keamanan, dan meningkatkan performa website. Integrasi dengan MySQL dan API modern memungkinkan pengelolaan data lebih cepat dan aman.</P>
+<p>5. Cyber Security – Melindungi Data dan Web
+Keamanan siber kini menjadi prioritas utama. Penting untuk memahami SQL Injection, XSS, dan CSRF serta menerapkan protokol keamanan seperti HTTPS, CSP, dan enkripsi data. Penetration testing dan monitoring real-time membantu mengidentifikasi celah sebelum disalahgunakan.</p>
+<p>💡 Insight Terbaru
+Kombinasi web development dan cyber security adalah skill yang paling dicari tahun 2026. Membuat website keren saja tidak cukup; menjaga data pengguna dan sistem tetap aman adalah keharusan.</p>
+<p>Jadi, kuasai HTML, CSS, JavaScript, PHP, dan Cyber Security untuk menjadi programmer profesional yang siap menghadapi tantangan digital modern.</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="social">
+    <a href="https://www.instagram.com/mp_opicial?igsh=MXF4anV4ZDB1c2IwZQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.tiktok.com/@mp.gemy.geby.vip?_r=1&_t=ZS-93fG1Xwk6i5" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.youtube.com/@MIP2-z7v3j" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://wa.me/qr/4VYQTGEMD6O3G1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
